@@ -1,0 +1,43 @@
+header {
+  background-color: #3e4049;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.hamburger {
+  top: 30px;
+  position: absolute;
+  left: 30px;
+  background-color: transparent;
+  border: none;
+}
+.butDiv {
+  height: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.butDiv div {
+  width: 30px;
+  height: 4px;
+  border-radius: 2px;
+  background-color: #dde2ff;
+}
+.headerRight {
+  width: 177px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: absolute;
+  right: 30px;
+}
+.hedaerRight img {
+  padding-left: 300xp;
+}
+.headerRight span {
+  font-weight: 600;
+  font-size: 14px;
+  text-align: right;
+  letter-spacing: 0.2px;
+  color: #dde2ff;
+}

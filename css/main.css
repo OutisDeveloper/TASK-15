@@ -11,7 +11,7 @@
   box-sizing: border-box;
 }
 ::selection {
-  background-color: white;
+  background-color: #ffffff;
   color: black;
 }
 :root {
