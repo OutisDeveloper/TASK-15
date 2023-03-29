@@ -1,0 +1,47 @@
+.close aside {
+  width: 100px;
+}
+.close .asideLogoText {
+  display: none;
+}
+.close .liSpan {
+  display: none;
+}
+aside,
+header,
+main,
+.asideEnd {
+  transition: 0.6s ease-in-out;
+}
+.close header {
+  width: calc(100vw - var(--asideW) + 140px);
+  left: calc(var(--asideW) - 140px);
+  height: var(--headerH);
+}
+.close main {
+  width: calc(100vw - var(--asideW) + 140px);
+  left: calc(var(--asideW) - 140px);
+}
+.asideEnd {
+  position: absolute;
+  bottom: 3px;
+  left: 40px;
+}
+.close .asideEnd {
+  left: 24px;
+  display: flex;
+  flex-direction: column;
+  bottom: 0px;
+}
+.asideEnd button {
+  margin-right: 15px;
+}
+.close .asideEnd button {
+  margin-bottom: 0px;
+}
+.close .mode {
+  display: none;
+}
+.close .ouText {
+  display: none;
+}

@@ -1,9 +1,9 @@
 aside {
-  background-color: #363740;
+  padding-left: 2px;
   display: flex;
   flex-direction: column;
-  padding-left: 2px;
-  border-right: 3px solid #3E4049;
+  border-right: 3px solid transparent;
+  background-color: #363740;
 }
 .asideLogo {
   height: 80px;
@@ -26,6 +26,8 @@ aside {
 }
 .asideList {
   margin-top: 20px;
+  padding-bottom: 20px;
+  border-bottom: 2px solid #3E4049;
 }
 .listLi a {
   display: flex;
@@ -57,8 +59,4 @@ aside {
   color: #a4a6b3;
   width: 80px;
 }
-.asideEnd {
-  position: absolute;
-  left: 38px;
-  bottom: 30px;
-}
+

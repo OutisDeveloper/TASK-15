@@ -1,0 +1,48 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style-type: none;
+  font-family: "Lato", sans-serif;
+}
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+::selection {
+  background-color: black;
+  color: white;
+}
+:root {
+  width: 100vw;
+  margin: 0px auto;
+  --asideW: 240px;
+  --headerH: 80px;
+  scroll-behavior: smooth;
+}
+aside,
+header,
+main {
+  position: fixed;
+}
+header,
+main {
+  left: var(--asideW);
+}
+aside {
+  width: var(--asideW);
+  height: 100vh;
+  background-color: red;
+}
+header {
+  width: calc(100vw - var(--asideW));
+  height: var(--headerH);
+  background-color: yellow;
+}
+main {
+  top: var(--headerH);
+  width: calc(100vw - var(--asideW));
+  height: calc(100vh - var(--headerH));
+  background-color: green;
+}
