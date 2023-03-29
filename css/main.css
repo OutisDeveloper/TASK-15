@@ -11,6 +11,7 @@ main {
   justify-content: space-between;
   align-items: center;
   padding: 40px 0px;
+  transition: 0.3s ease-in-out;
 }
 .main-top-text {
   font-weight: 400;

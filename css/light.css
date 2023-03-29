@@ -70,12 +70,14 @@
 /* main-top-start */
 .light main {
   background-color: white;
+  transition: 0.3s ease-in-out;
 }
 .light main * {
   color: #3e4049;
 }
 .light .main-top {
   background-color: white;
+  transition: 0.3s ease-in-out;
 }
 .light ::-webkit-scrollbar-thumb {
   background: #c7c7c7;
